@@ -73,7 +73,7 @@ class Extension {
                     if (error) {
                         // On error, notify the user and write to stderr
                         idleId = GLib.idle_add(GLib.PRIORITY_DEFAULT_IDLE, () => {
-                            Main.notifyError("Failed to communicate with system76-scheduler service.");
+                            //Main.notifyError("Failed to communicate with system76-scheduler service.");
                             logError(error);
 
                             // Remove idleId from tracking list
