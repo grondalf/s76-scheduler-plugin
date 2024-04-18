@@ -5,7 +5,8 @@
   "version": 6,
   "url": "https://github.com/mjakeman/s76-scheduler-plugin/",
   "shell-version": [
-    "45"
+    "45",
+    "46"
   ],
   "gettext-domain": "s76-scheduler-plugin"
 }
